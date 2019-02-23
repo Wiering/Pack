@@ -386,6 +386,7 @@ program Pack;
           begin
             CurData := CurBlock^[CurPos];
             Inc (CurPos);
+            CurByte := 0;
           end;
         mdStoreW:
           begin
